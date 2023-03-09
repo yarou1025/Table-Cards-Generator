@@ -6,7 +6,7 @@ This program generates a PowerPoint presentation of table cards using a given Ex
 
 This program requires `Python` and the `pptx` package. To install the necessary packages, run:
 
-pip install pptx pandas
+```pip install pptx pandas```
 
 
 ## Usage
@@ -19,7 +19,7 @@ To use this program, follow these steps:
 
 3. Run the `table_cards_generator.py` script, passing in the Excel file and the template PowerPoint file as arguments:
 
-python table_cards_generator.py --excel_file example.xlsx --pptx_file template.pptx
+```python table_cards_generator.py --excel_file example.xlsx --pptx_file template.pptx```
 
 
 4. The program will generate a new PowerPoint file with table cards for each attendee, based on the template file.
